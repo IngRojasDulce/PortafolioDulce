@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './home.css';
 
 const Home = () => {
-  return (<div class="container-fluid">
+  return (<div class= "body-background">
+    <div class="container-fluid ">
+ 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Rojas Dulce</a>
@@ -33,8 +36,15 @@ const Home = () => {
     </div>
   </div>
 </nav>
-<img src="https://www.mytaskpanel.com/wp-content/uploads/2022/01/bffhhhshh.webp" class="img-fluid" alt="imagen"></img></div>
-  )
+<div><div class="grid text-center">
+  <div class="g-col-8 g-col-sm-2">.g-col-6 .g-col-md-4
+  <img src="https://www.mytaskpanel.com/wp-content/uploads/2022/01/bffhhhshh.webp" class="img-fluid" alt="imagen"></img></div></div>
+  <div class="g-col-6 g-col-md-4">.g-col-6 .g-col-md-4</div>
+
+</div>
+</div>
+</div> )
+  
 }
 
 export default Home
