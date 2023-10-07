@@ -3,10 +3,10 @@ import './home.css';
 
 const Home = () => {
   return (<div class= "body-background">
-    <div class="container-fluid ">
+    <div class="container-fluid px-0">
  
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
+   <div class="container-fluid ">
     <a class="navbar-brand" href="#">Rojas Duran  Dulce Belzabeth</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -38,7 +38,7 @@ const Home = () => {
 </nav>
 <div>
   
-    <div class="container text-center">
+    <div class="container text-center ">
   <div class="row">
     <div class="col-sm">
     <img src="https://avatars.githubusercontent.com/u/123681236?v=4" class="img-thumbnail" alt="..."/>
@@ -53,8 +53,14 @@ const Home = () => {
 
 </div>
 </div>
-<div id="acerca-de-mi" class='--bs-danger-rgb'>
-Soy ingeniero en electrónica, desde pequeña llamo mi atención la tecnología y los grandes pasos que da, interesándome las telecomunicaciones durante el desarrollo de mi carrera profesional. Decidí ampliar mis conocimientos de programación mediante un bootcamp llamado Soy Henry donde aprendí y puse en práctica conociendo como, javascript , React js, Redux, Node js , express, sequelize, postgresql, css y el uso de herramientas como insomnia y git, desarrollando mayor organización con el uso de trello, encontrando un mundo apasionante que está en constante actualización, motivadome a no dejar de aprender.
+<div id="acerca-de-mi" class='--bs-danger-rgb '>
+<p class="lead 	p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3  ">Soy ingeniero en electrónica, desde pequeña llamo mi atención 
+la tecnología y los grandes pasos que da, interesándome las telecomunicaciones durante el desarrollo 
+de mi carrera profesional. Decidí ampliar mis conocimientos de programación mediante un bootcamp llamado
+ Soy Henry donde aprendí y puse en práctica conociendo como, javascript , React js, Redux, Node js , express, 
+ sequelize, postgresql, css y el uso de herramientas como insomnia y git, desarrollando mayor organización con
+  el uso de trello, encontrando un mundo apasionante que está en constante actualización, motivadome a no dejar
+   de aprender.</p>
 
 
 
