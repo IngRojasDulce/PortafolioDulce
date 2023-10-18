@@ -1,9 +1,12 @@
 import React from 'react';
 import './home.css';
 
+
 const Home = () => {
-  return (
-    <div class= "body-background">
+  return (<div>
+    <div id="particles-js"></div>
+    <div class= "contenedor">
+      
       <div class="container-fluid px-0">
  
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -45,7 +48,11 @@ const Home = () => {
     <img src="https://avatars.githubusercontent.com/u/123681236?v=4" class="img-thumbnail" alt="..."/>
     </div>
     <div class="col-sm">
-    <img src="https://www.mytaskpanel.com/wp-content/uploads/2022/01/bffhhhshh.webp" class="img-fluid" alt="imagen"></img>
+    
+      <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+     
+    {/* <img src="https://www.mytaskpanel.com/wp-content/uploads/2022/01/bffhhhshh.webp" class="img-fluid" alt="imagen"></img> */
+  }
     </div>
   </div>
   
@@ -61,6 +68,7 @@ nuevos conocimientos, con capacidad de adaptarse
 fácilmente a entornos de cambios constantes y sin miedo para trabajar bajo presión. Listo para 
 integrarse en equipos multidisciplinarios y trabajar bajo metodologías agiles orientadas hacia objetivos.</p>
 
+</div>
 </div>
 </div> )
   
