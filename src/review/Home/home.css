@@ -1,4 +1,4 @@
-/* .body-background{
+.body-background{
 background: linear-gradient(to bottom, #69c7bf, #033f57);
 height: 100%;
 margin :0;
@@ -8,10 +8,10 @@ padding: 0;
     margin: 0; 
     padding: 0; 
     box-sizing: border-box;
-} */
+}
 
 body {
-    background-color:#8b0606;
+    background-color:#070101;
     color: #fff;
     font-size: 18px;
     font-family: 'Lato', sans-serif;
@@ -27,10 +27,10 @@ body {
 
 
 .contenedor {
-	width: 90%;
+	width: 50%;
 	max-width: 1200px;
     background-size: cover;
-    background-image: url('');
+    background-image: url('https://www.mytaskpanel.com/wp-content/uploads/2022/01/bffhhhshh.webp');
     background-position:center;
 	margin-left: auto; 
 	margin-right: auto;
@@ -41,7 +41,7 @@ body {
     opacity: .85;
     box-sizing: border-box;
 }
-/* 
+
 .contenedor.header {
     height: calc(100vh - 55px);
     border: 3px solid #555555;
@@ -128,4 +128,4 @@ body {
     42%, 44%, 46%,48%,  50%  { 
         opacity: 0; 
     }
-} */
+}
