@@ -2,8 +2,30 @@ import React from 'react';
 import './home.css';
 import foto from '../../img/foto.jpg';
 import mini from '../../img/m-market.png';
+import Particles from '../particles/particles';
 
 const Home = () => {
+  const initializeParticles = () => {
+    // Configura las opciones de Particle.js
+    const particleOptions = {
+      particles: {
+        number: {
+          value: 50, // El número de partículas
+        },
+        size: {
+          value: 3, // El tamaño de las partículas
+        },
+      },
+    };
+  
+    // Inicializa Particle.js
+    Particles.init('particles-js', particleOptions);
+  };
+  
+  // Llama a initializeParticles después de que el componente esté montado
+  React.useEffect(() => {
+    initializeParticles();
+  }, []);
   return (
     <div>
       <div id="particles-js"></div>
@@ -157,7 +179,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+      {/* particulas */}
+      {/* <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script> */}
     </div>
   );
 };
