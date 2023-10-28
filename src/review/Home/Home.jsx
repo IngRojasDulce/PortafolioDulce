@@ -1,34 +1,15 @@
 import React from 'react';
+import  { useEffect } from 'react';
+
 import './home.css';
 import foto from '../../img/foto.jpg';
 import mini from '../../img/m-market.png';
-import Particles from '../particles/particles';
 
 const Home = () => {
-  const initializeParticles = () => {
-    // Configura las opciones de Particle.js
-    const particleOptions = {
-      particles: {
-        number: {
-          value: 50, // El número de partículas
-        },
-        size: {
-          value: 3, // El tamaño de las partículas
-        },
-      },
-    };
   
-    // Inicializa Particle.js
-    Particles.init('particles-js', particleOptions);
-  };
-  
-  // Llama a initializeParticles después de que el componente esté montado
-  React.useEffect(() => {
-    initializeParticles();
-  }, []);
   return (
     <div>
-      <div id="particles-js"></div>
+      
       <div className="contenedor">
         <div className="container-fluid px-0">
           <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -57,6 +38,11 @@ const Home = () => {
                   <li className="nav-item">
                     <a className="nav-link" href="#proyectos">
                       Proyectos
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link active" aria-current="page" href="#skill">
+                      Skill
                     </a>
                   </li>
                   <li className="nav-item dropdown">
@@ -94,7 +80,7 @@ const Home = () => {
           <div className="container text-center">
             <div className="row">
               <div className="col-sm rounded-3">
-                <img src={foto} className="img-thumbnail rounded-circle border border-white" alt="..." />
+                <img src={foto} className="img-thumbnail rounded-circle border border-white " style={{ maxWidth: "35%" }} alt="..." />
               </div>
               <div className="col-sm">
                 {/* <img src="https://www.mytaskpanel.com/wp-content/uploads/2022/01/bffhhhshh.webp" class="img-fluid" alt="imagen"></img> */}
