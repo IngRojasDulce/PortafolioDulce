@@ -4,11 +4,13 @@ import  { useEffect } from 'react';
 import './home.css';
 import foto from '../../img/foto.jpg';
 import mini from '../../img/m-market.png';
+// import ParticlesBackground from '../../component/config/ParticlesBackground';
 
 const Home = () => {
   
   return (
     <div>
+      {/* <ParticlesBackground/> */}
       
       <div className="contenedor">
         <div className="container-fluid px-0">
@@ -165,8 +167,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/* particulas */}
-      {/* <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script> */}
+
+      
     </div>
   );
 };
