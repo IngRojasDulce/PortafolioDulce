@@ -27,7 +27,7 @@ body {
 
 
 .contenedor {
-    background-color: black;
+    background-color:#01021875;
 	width: 60%;
 	max-width: 1200px;
     background-size: cover;
@@ -41,6 +41,7 @@ body {
     z-index: 99;
     opacity: .85;
     box-sizing: border-box;
+    border-radius: 3%;
 }/*
 
 .contenedor.header {

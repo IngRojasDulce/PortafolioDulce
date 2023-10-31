@@ -8,10 +8,10 @@ const particlesConfig = {
       }
     },
     "color": {
-      "value": "#030958"
+      "value": "#dae1ed"
     },
     "shape": {
-      "type": "circle",
+      "type": "star",
       "stroke": {
         "width": 0,
         "color": "#000000"
@@ -36,7 +36,7 @@ const particlesConfig = {
       }
     },
     "size": {
-      "value": 3,
+      "value": 4,
       "random": true,
       "anim": {
         "enable": false,
