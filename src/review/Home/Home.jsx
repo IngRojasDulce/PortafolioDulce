@@ -4,6 +4,7 @@ import  { useEffect } from 'react';
 import './home.css';
 import foto from '../../img/foto.jpg';
 import mini from '../../img/m-market.png';
+import logo from '../../img/logoLuzDen.png'
 // import ParticlesBackground from '../../component/config/ParticlesBackground';
 
 const Home = () => {
@@ -92,9 +93,9 @@ const Home = () => {
         </div>
         <div id="acerca-de-mi" className="mx-auto w-60">
           <p className="lead p-3 bg-primary-subtle border border-primary-subtle rounded-3 text-justify">
-            Full Stack developer con un background en Ingenieria Electronica, proactiva y eficiente, rápida para adquirir
+            Ingeniera Electronica con experiencia en desarrollo web, soy  proactiva y eficiente, rápida para adquirir
             nuevos conocimientos, con capacidad de adaptarse fácilmente a entornos de cambios constantes y sin miedo para
-            trabajar bajo presión. Listo para integrarse en equipos multidisciplinarios y trabajar bajo metodologías agiles
+            trabajar bajo presión. Lista para integrarse en equipos multidisciplinarios y trabajar bajo metodologías agiles
             orientadas hacia objetivos.
           </p>
         </div>
@@ -102,7 +103,7 @@ const Home = () => {
           <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active" data-bs-interval="10000">
-              <div className="card" style={{ width: '18rem' }}>
+              <div className="card" style={{ width: '18rem', backgroundColor: '#212529ad', color:'#fff3cd'}}>
                   <img src={mini} className="card-img-top" alt="VideoGames" />
                   <div className="card-body">
                     <h5 className="card-title">M-Market</h5>
@@ -112,19 +113,20 @@ const Home = () => {
                     <a href="#" className="btn btn-primary">
                      DEMO
                     </a>
-                    <a href="#" className="btn btn-primary">
+                    <a href="https://github.com/IngRojasDulce/M-Market.git" className="btn btn-primary">
                      Codigo
                     </a>
+                    
                   </div>
                 </div>
               </div>
               <div className="carousel-item" data-bs-interval="2000">
-              <div className="card" style={{ width: '18rem' }}>
-                  <img src={mini} className="card-img-top" alt="VideoGames" />
+              <div className="card" style={{ width: '18rem', backgroundColor: '#212529ad', color:'#fff3cd'}}>
+                  <img src={logo} className="card-img-top" alt="VideoGames" />
                   <div className="card-body">
-                    <h5 className="card-title">VideoGames</h5>
+                    <h5 className="card-title">LuzBen</h5>
                     <p className="card-text">
-                      otro proyecto a incluir
+                      Pagina que web que permite al usuario ver repuestos de motocicletas y a poder detallar sus caracteristicas, actualmente sigue en desarrollo
                     </p>
                     <a href="#" className="btn btn-primary">
                      Demo
@@ -136,7 +138,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="carousel-item">
-                <div className="card" style={{ width: '18rem' }}>
+                <div className="card" style={{ width: '18rem', backgroundColor: '#212529ad', color:'#fff3cd'}}>
                   <img src={mini} className="card-img-top" alt="VideoGames" />
                   <div className="card-body">
                     <h5 className="card-title">VideoGames</h5>
