@@ -42,7 +42,13 @@ body {
     opacity: .85;
     box-sizing: border-box;
     border-radius: 3%;
-}/*
+}
+.nav-item.dropdown {
+    overflow: hidden;
+    transition: overflow .75s ease;
+  }
+
+/*
 
 .contenedor.header {
     height: calc(100vh - 55px);
