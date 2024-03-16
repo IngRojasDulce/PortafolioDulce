@@ -103,7 +103,7 @@ const Home = () => {
           <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active" data-bs-interval="10000">
-              <div className="card" style={{ width: '18rem', backgroundColor: '#212529ad', color:'#fff3cd'}}>
+              <div className="card card-body" style={{ width: '18rem', backgroundColor: '#212529ad', color:'#fff3cd'}}>
                   <img src={mini} className="card-img-top" alt="VideoGames" />
                   <div className="card-body">
                     <h5 className="card-title">M-Market</h5>
@@ -121,6 +121,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="carousel-item" data-bs-interval="2000">
+                <div className='card-container'>
               <div className="card" style={{ width: '18rem', backgroundColor: '#212529ad', color:'#fff3cd'}}>
                   <img src={logo} className="card-img-top" alt="VideoGames" />
                   <div className="card-body">
@@ -136,8 +137,10 @@ const Home = () => {
                     </a>
                   </div>
                 </div>
+                </div>
               </div>
               <div className="carousel-item">
+              <div className='card-container'>
                 <div className="card" style={{ width: '18rem', backgroundColor: '#212529ad', color:'#fff3cd'}}>
                   <img src={mini} className="card-img-top" alt="VideoGames" />
                   <div className="card-body">
@@ -153,6 +156,7 @@ const Home = () => {
                      Codigo
                     </a>
                   </div>
+                </div>
                 </div>
                 {/* <img src={mini} class="d-block w-100 " alt="video juegos"/>
                    <p><a href="#" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Light link</a></p> */}
