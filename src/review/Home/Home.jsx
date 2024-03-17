@@ -103,6 +103,7 @@ const Home = () => {
           <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active" data-bs-interval="10000">
+              <div className='card-container'> 
               <div className="card card-body" style={{ width: '18rem', backgroundColor: '#212529ad', color:'#fff3cd'}}>
                   <img src={mini} className="card-img-top" alt="VideoGames" />
                   <div className="card-body">
@@ -119,6 +120,7 @@ const Home = () => {
                     
                   </div>
                 </div>
+              </div>
               </div>
               <div className="carousel-item" data-bs-interval="2000">
                 <div className='card-container'>
