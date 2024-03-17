@@ -47,6 +47,17 @@ body {
     overflow: hidden;
     transition: overflow .75s ease;
   }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;}
 
 /*
 
