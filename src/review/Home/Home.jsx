@@ -5,7 +5,15 @@ import './home.css';
 import foto from '../../img/foto.jpg';
 import mini from '../../img/m-market.png';
 import logo from '../../img/logoLuzDen.png';
-import cV from '../../file/CvRojasDulceFS.pdf'
+import js from '../../img/JavaScript-logo.png';
+import cV from '../../file/CvRojasDulceFS.pdf';
+import react from '../../img/LogoReact.svg';
+import css from '../../img/logoCSS.png';
+import html from '../../img/logoHtml.png';
+import postgres from '../../img/logoPostgreSQL.png';
+import java from '../../img/logoJava.png';
+import redux from '../../img/logoRedux.jpg';
+import sql from '../../img/logoSQL.jpg';
 // import ParticlesBackground from '../../component/config/ParticlesBackground';
 
 const Home = () => {
@@ -200,10 +208,27 @@ const Home = () => {
             </button>
           </div>
         </div>
-      </div>
+        <div id='skill'>
+        Tech Skill
+        <div className="container text-center">
+  <div class="row">
+    <div className="col"><img src={js} className="img-fluid" alt="Logo de JavaScript" /> JS</div>
+    <div className="col"><img src={react} className="img-fluid" alt="Logo de REACT" />React js</div>
+    <div className="col"><img src={css} className="img-fluid" alt="Logo de CSS" />CSS</div>
+    <div className="col"><img src={html} className="img-fluid" alt="Logo de HTML" />HTML</div>
+  </div>
+  <div class="row">
+    <div className="col"><img src={postgres} className="img-fluid" alt="Logo de Postgres sql" />Postgres sql</div>
+    <div className="col"><img src={java} className="img-fluid" alt="Logo de Java" />Java</div>
+    <div className="col"><img src={redux} className="img-fluid" alt="Logo de Redux" />Redux</div>
+    <div className="col"><img src={sql} className="img-fluid" alt="Logo de SQL" />SQL</div>
+  </div >
+</div>
 
-      
-    </div>
+</div>
+      </div>
+      </div>  
+     
   );
 };
 
