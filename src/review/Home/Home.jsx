@@ -14,6 +14,7 @@ import postgres from '../../img/logoPostgreSQL.png';
 import java from '../../img/logoJava.png';
 import redux from '../../img/logoRedux.jpg';
 import sql from '../../img/logoSQL.jpg';
+import node from '../../img/logoNode.png'
 // import ParticlesBackground from '../../component/config/ParticlesBackground';
 
 const Home = () => {
@@ -212,17 +213,18 @@ const Home = () => {
         Tech Skill
         <div className="container text-center">
   <div class="row">
-    <div className="col"><img src={js} className="img-fluid" alt="Logo de JavaScript" /> JS</div>
-    <div className="col"><img src={react} className="img-fluid" alt="Logo de REACT" />React js</div>
-    <div className="col"><img src={css} className="img-fluid" alt="Logo de CSS" />CSS</div>
-    <div className="col"><img src={html} className="img-fluid" alt="Logo de HTML" />HTML</div>
+    <div className="col"><img src={js} className="img-fluid rounded" style={{ height: '50%', width: '80%' }} alt="Logo de JavaScript" />  JS</div>
+    <div className="col"><img src={css} className="img-fluid rounded" style={{ height: '50%', width: '80%' }} alt="Logo de CSS" />CSS</div>
+    <div className="col"><img src={html} className="img-fluid rounded" style={{ height: '50%', width: '80%' }} alt="Logo de HTML" />HTML</div>
+    <div className="col"><img src={react} className="img-fluid rounded" style={{ height: '50%', width: '100%' }} alt="Logo de REACT" />React js</div>
   </div>
   <div class="row">
-    <div className="col"><img src={postgres} className="img-fluid" alt="Logo de Postgres sql" />Postgres sql</div>
-    <div className="col"><img src={java} className="img-fluid" alt="Logo de Java" />Java</div>
-    <div className="col"><img src={redux} className="img-fluid" alt="Logo de Redux" />Redux</div>
-    <div className="col"><img src={sql} className="img-fluid" alt="Logo de SQL" />SQL</div>
-  </div >
+    <div className="col"><img src={postgres} className="img-fluid rounded" style={{ height: '50%', width: '80%' }} alt="Logo de Postgres sql" />Postgres sql</div>
+    <div className="col"><img src={java} className="img-fluid rounded" style={{ height: '50%', width: '80%' }} alt="Logo de Java" />Java</div>
+    <div className="col"><img src={redux} className="img-fluid rounded" style={{ height: '50%', width: '80%' }} alt="Logo de Redux" />Redux</div>
+    <div className="col"><img src={sql} className="img-fluid rounded" style={{ height: '50%', width: '80%' }} alt="Logo de SQL" />SQL</div>
+    <div className="col"><img src={node} className="img-fluid rounded" style={{ height: '50%', width: '80%' }} alt="Logo de node" />Node js</div>
+    </div >
 </div>
 
 </div>
