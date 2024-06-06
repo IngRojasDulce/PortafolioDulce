@@ -213,7 +213,7 @@ const Home = () => {
         Tech Skill
         <div className="container text-center">
   <div class="row">
-    <div className="col"><img src={js} className="img-fluid rounded" style={{ height: '50%', width: '80%' }} alt="Logo de JavaScript" />  JS</div>
+    <div className="col"><img src={js} className="img-fluid rounded" style={{ height: '50%', width: '80%' }} alt="Logo de JavaScript" /> <p className='h6  color_letra'>JS</p> </div>
     <div className="col"><img src={css} className="img-fluid rounded" style={{ height: '50%', width: '80%' }} alt="Logo de CSS" />CSS</div>
     <div className="col"><img src={html} className="img-fluid rounded" style={{ height: '50%', width: '80%' }} alt="Logo de HTML" />HTML</div>
     <div className="col"><img src={react} className="img-fluid rounded" style={{ height: '50%', width: '100%' }} alt="Logo de REACT" />React js</div>

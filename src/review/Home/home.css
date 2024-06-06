@@ -59,4 +59,7 @@ body {
     align-items: center;
     height: 100vh;}
 
-    
+    .color_letra{
+        color: red;
+
+    }
