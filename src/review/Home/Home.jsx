@@ -128,7 +128,7 @@ const Home = () => {
         </div>
         <div id="acerca-de-mi" className="mx-auto w-60">
           <p className="lead p-3 bg-primary-subtle border border-primary-subtle rounded-3 text-justify">
-            Ingeniera Electronica con experiencia en desarrollo web, soy  proactiva y eficiente, rápida para adquirir
+          Como profesional en ingeniera electrónica cuento con experiencia en desarrollo web, soy  proactiva y eficiente, rápida para adquirir
             nuevos conocimientos, con capacidad de adaptarse fácilmente a entornos de cambios constantes y sin miedo para
             trabajar bajo presión. Lista para integrarse en equipos multidisciplinarios y trabajar bajo metodologías agiles
             orientadas hacia objetivos.
