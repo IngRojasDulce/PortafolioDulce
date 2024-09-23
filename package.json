@@ -2,7 +2,7 @@
   "name": "portafolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://IngRojasDulce.github.io/portafolio/",
+
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "vite build",
-    "deploy": "vercel"
+    "deploy": "vercel deploy --prod"
    
   },
   "dependencies": {
